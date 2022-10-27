@@ -32,3 +32,9 @@ def hotter_temp():
     # What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
     # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
     print("30.2 degrees celsius")
+# Peer pArtner Project 7-8 adding functions
+def to_celsius(num):
+    print((num - 32) * 5/9)
+
+def to_fahrenheit(num):
+    print((num * 5/9) + 32)
